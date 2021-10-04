@@ -1,0 +1,16 @@
+
+:root{
+  --main-color: #17223B;
+  --medium-navy: #263859;
+  --light-navy: #6B778D;
+  --red: #FF6768;
+}
+
+
+.App{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  color:white;
+  background-color: var(--light-navy);
+}

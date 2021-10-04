@@ -1,0 +1,12 @@
+.banner{
+    background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80');
+    width: 100vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+.display-courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
