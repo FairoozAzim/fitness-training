@@ -7,7 +7,7 @@ const Programs = () => {
     const [courses] = useCourses();
     return (
         <div>
-            <h1 className="mt-5 text-center">List of all programs</h1>
+            <h1 className="mt-5 mb-5 text-center">List of all programs</h1>
             <div className="course">
                 {
                     courses.map(course => <Course

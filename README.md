@@ -9,6 +9,6 @@ https://fitnesstraining.netlify.app/
 ## Website functionalities:
 
   * A Home Page giving the basic informations.
-  * A cart and payment system to buy a course
-  * A Course page with course details, a blog page, about section and course instructors page.
+  * A page with course details.
+  * A blog page and about section.
 
