@@ -26,10 +26,10 @@
     {
       "id": "04",
       "name": "Calisthenics",
-      "description": "Calisthenics are exercises that don't rely on anything but a person's own body weight.These exercises allow for the development of strength, endurance, flexibility, and coordination. ",
+      "description": "Calisthenics are exercises that don't rely on anything but a person's own body weight.",
       "sessions": 12,
       "img": "https://img.redbull.com/images/c_crop,x_237,y_0,h_1080,w_1260/c_fill,w_650,h_540/q_auto,f_auto/redbullcom/2019/10/15/7e250c55-e482-4db7-a575-4b5fc337f90e/man-handstand-calishenics-park-london",
-      "price": 180
+      "price": 100
     },
     {
       "id": "05",
@@ -37,7 +37,7 @@
       "description": "Cross-training is athletic training in sports other than the athlete's usual sport. The goal is improving overall performance",
       "sessions": 12,
       "img": "https://spy.com/wp-content/uploads/2020/11/cross-trainers-featured-image.jpg?w=1000&h=750&crop=1",
-      "price": 200
+      "price": 100
     },
     {
       "id": "06",
@@ -45,7 +45,7 @@
       "description": "High-intensity interval training is a form of interval training, a cardiovascular exercise strategy alternating short periods of intense anaerobic exercise with less intense recovery periods, until too exhausted to continue.",
       "sessions": 10,
       "img": "https://www.issaonline.com/blog/img/posts/64/issa-blog-header-hiit.jpg",
-      "price": 120
+      "price": 100
     },
     {
       "id": "07",
@@ -53,7 +53,7 @@
       "description": "Stretching may not be the most exciting part of working out, but doing flexibility work is just as important for a well-rounded fitness routine as strength and cardio work. ",
       "sessions": 15,
       "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/good-stretch-after-training-royalty-free-image-654424976-1551378236.jpg?crop=1.00xw:0.752xh;0,0.0817xh&resize=1200:*",
-      "price": 80
+      "price": 100
     },
     {
       "id": "08",

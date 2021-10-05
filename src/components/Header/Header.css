@@ -3,16 +3,16 @@
     text-decoration: none;
     padding: 20px;
 }
-.navlink{
+.nav-link{
   text-decoration: none;
   color: white;
-  margin-right: 10px;
- font-size: 10px !important;
-
+  margin-right: 15px;
+ font-size: 20px;
 }
 .brand{
   text-decoration: none;
-  color: var(--light-navy);
+  color: white;
+  font-size: 30px;
 }
 .logo{
   width: 7%;
@@ -22,4 +22,11 @@
 }
 .nav-link:hover{
   color: var(--red);
+}
+
+.active{
+  color: var(--red);
+}
+.toggle{
+  color: white;
 }

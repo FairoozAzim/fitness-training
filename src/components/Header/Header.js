@@ -5,28 +5,33 @@ import logo from './../../cropped-F-logo.png'
 const Header = () => {
     return (
         <div className="header">
-            <div className="nav-bar d-flex align-items-center justify-content-between">
-            <div>
-            <NavLink to='/home' className="ms-5 brand d-flex">
-            <img src={logo} alt="" className="logo me-3"></img>
-            <h1><span className="text-red">Fitness</span> 101</h1>
-            </NavLink>
-            </div>
-           <div className="links d-flex align-items-center">
-           <NavLink to="/home" className="ms-5 navlink me-5">
-             <h1>Home</h1>
-            </NavLink>
-            <NavLink to="/programs" className="navlink me-5">
-             <h1>Programs</h1>
-            </NavLink>
-            <NavLink to="/about" className="navlink me-5">
-             <h1>About us</h1>
-            </NavLink>
-            <NavLink to="/blogs" className="navlink me-5">
-             <h1>Blogs</h1>
-            </NavLink>
-           </div>
-            </div>
+           <nav className="navbar navbar-expand-lg nav-bar">
+               <div className="container-fluid">
+                    <NavLink className="brand" to="/home"><img className="d-inline-block align-text-top me-2" width="30" height="30" src={logo} alt=""></img><span className="fw-bold text-red me-2">Fitness</span><span className="brand fw-bold">101</span> </NavLink>
+                   <div>
+                   <button className="navbar-toggler toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                        <NavLink exact className="nav-link nav-l" activeClassName="active" aria-current="page" to="/home">Home</NavLink>
+                        </li>
+                        <li className="nav-item">
+                        <NavLink exact className="nav-link nav-l" to="/about">About Us</NavLink>
+                        </li>
+                        <li className="nav-item dropdown">
+                        <NavLink exact className="nav-link nav-l" to="/Programs">Programs</NavLink>
+                        </li>
+                        <li className="nav-item">
+                        <NavLink exact className="nav-link nav-l" to="/blogs">Blogs</NavLink>
+                        </li>
+                    </ul>
+                   
+                    </div>
+                   </div>
+                </div>
+                </nav>
         </div>
     );
 };

@@ -3,18 +3,55 @@
     width:500px
 }
 .about-text{
-    font-size: 25px;
+    font-size: 20px;
     width: 80%;
     border-left: 3px solid var(--red);
     padding: 15px
 }
-.trainer-card{
-    width: 400px;
-    height: 200px;
-    padding: 10px;
-    background-color: var(--main-color);
+.trainer-info{
+    position: relative;
 }
-
-.trainer-card img{
-    width: 200px;
+.trainer img{
+     height: 300px;
+     width: 400px;
+}
+.trainer-details{
+    display: none;
+}
+.trainer-info:hover{
+    cursor: pointer;
+}
+.trainer-info:hover img{
+    backdrop-filter: blur(10px);
+    filter: blur(1px);
+    transition: 0.5s ease;
+}
+.trainer-info:hover .trainer-details{
+   display: block;
+   position: absolute;
+   background-color:rgba(192, 83, 83, 0.5);
+   padding: 30px;
+   color: white;
+   font-weight: bold;
+   height: 200px;
+   width: 80%;
+   top: 20%;
+   text-align: left;
+   
+}
+@media only screen and (max-width :600px){
+    .about-text{
+        font-size: 1rem;
+        width: 100%;
+        border: none;
+        padding: 0px
+    }
+}
+@media only screen and (max-width :992px){
+    .about-text{
+        font-size: 1rem;
+        width: 100%;
+        border: none;
+        padding: 0px
+    }
 }
