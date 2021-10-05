@@ -2,9 +2,13 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css'
 import logo from './../../cropped-F-logo.png'
+import { FaUser } from 'react-icons/fa';
 const Header = () => {
     return (
         <div className="header">
+
+                  {/*======== navbar ========== */}
+                  
            <nav className="navbar navbar-expand-lg nav-bar">
                <div className="container-fluid">
                     <NavLink className="brand" to="/home"><img className="d-inline-block align-text-top me-2" width="30" height="30" src={logo} alt=""></img><span className="fw-bold text-red me-2">Fitness</span><span className="brand fw-bold">101</span> </NavLink>
@@ -20,11 +24,17 @@ const Header = () => {
                         <li className="nav-item">
                         <NavLink exact className="nav-link nav-l" to="/about">About Us</NavLink>
                         </li>
-                        <li className="nav-item dropdown">
+                        <li className="nav-item">
                         <NavLink exact className="nav-link nav-l" to="/Programs">Programs</NavLink>
                         </li>
                         <li className="nav-item">
+                        <NavLink exact className="nav-link nav-l" to="/testimonials">Testimonials</NavLink>
+                        </li>
+                        <li className="nav-item">
                         <NavLink exact className="nav-link nav-l" to="/blogs">Blogs</NavLink>
+                        </li>
+                        <li className="nav-item">
+                        <NavLink exact className="nav-link nav-l" to="/"><FaUser></FaUser></NavLink>
                         </li>
                     </ul>
                    

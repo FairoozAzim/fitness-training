@@ -3,7 +3,9 @@ import './Home.css';
 import useCourses from '../../hooks/useCourses';
 import Course from '../Course/Course';
 import { Link } from 'react-router-dom';
-
+import {FaFacebookF} from 'react-icons/fa'
+import { FaGoogle } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 
 const Home = () => {
   const [courses] = useCourses();
@@ -34,10 +36,10 @@ const Home = () => {
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <button className="btn-register facebook w-100 mb-3">Register with FACEBOOK</button>
-                    <button className="btn-register google w-100">Register with GOOGLE</button>
+                    <button className="btn-register facebook w-100 mb-3"><FaFacebookF className="text-white"/>  Register with FACEBOOK</button>
+                    <button className="btn-register google w-100"><FaGoogle className="text-red"/>  Register with GOOGLE</button>
                      <p className="text-center mt-2">or</p> <hr></hr>
-                     <button className="btn-register email w-100 mb-3">Register with EMAIL</button>
+                     <button className="btn-register email w-100 mb-3"><MdEmail className="text-white"/>  Register with EMAIL</button>
                      <small>By signing up, I agree to the <span className="text-red fw-bold">Fitness 101</span>  <span className="text-primary">Terms of Service</span> and <span className="text-primary">Privacy Policiy</span></small>
                   </div>
                   <div class="modal-footer d-flex justify-content-between">
@@ -51,6 +53,8 @@ const Home = () => {
             </div>
          </div>
           <div className="mt-5 mb-5">
+
+            {/*============ Programs list display =============*/}
             <h1 className="text-center fw-bold mb-5">Some of our <span className="text-red">Top Programs</span></h1>
          
             <div className="container overflow-hidden mx-auto">
@@ -65,6 +69,8 @@ const Home = () => {
             </div>
           
            </div>
+           
+
           </div>
     );
 };

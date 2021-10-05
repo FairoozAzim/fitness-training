@@ -3,6 +3,8 @@ import './Course.css'
 const Course = (props) => {
     const {name, price,description, sessions,img} = props.course;
     return (
+
+        // single course design
         <div className="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div className="card course-info h-100">
             <div className="img-div">

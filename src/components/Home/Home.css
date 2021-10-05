@@ -1,3 +1,4 @@
+/* banner section */
 .banner{
     background-image: url('../../Background.png');
     width: 100vw;
@@ -32,6 +33,7 @@
     text-align: left;
 }
 
+/* membership section */
 .membership{
     background-color: var(--main-color);
     width: 100vw;
@@ -53,11 +55,8 @@
  background-color: var(--main-color);
 color: white;
 }
-/* .display-courses{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-} */
 
+  /* modal design */
 .btn-register{
     padding: 17px;
     text-transform: uppercase;
@@ -94,6 +93,7 @@ color: white;
 
 }
 
+/* media query */
 @media only screen and (max-width: 600px) {
     .hero-text{
         text-align: center;

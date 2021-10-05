@@ -2,4 +2,8 @@
     height: 100vh;
     background-color: white;
     color: black;
+
+}
+.not-found h1{
+    font-size: 80px;
 }

@@ -5,13 +5,14 @@ import trainer1 from '../../fitness-trainer-1.jpg'
 import trainer2 from '../../fitness-trainer-2.jpg'
 import trainer3 from '../../fitness-trainer-3.jpg'
 import trainer4 from '../../fitness-trainer-4.jpg'
+import {MdFitnessCenter} from 'react-icons/md';
 
 const About = () => {
     return (
         <div className="about container mb-5">
             <h1 className="mt-5 text-center fw-bold">Fitness and Mental Health</h1>
              <p className="mt-3 text-center text-red fs-4">The only place you'll need for your fitness goals.</p>
-            <div className="mt-5 d-flex flex-column flex-lg-row align-items-center justify-content-center">
+            <div className="margin mb-5 d-flex flex-column flex-lg-row align-items-center justify-content-center">
                 <div >
                  <img src={image} alt="" className="me-5 about-image"></img>
                 </div>
@@ -21,32 +22,32 @@ const About = () => {
                 </div>
                 
             </div>
-            <h1 className="mt-5 mb-5 text-center fw-bold">Our <span className="text-red">Services</span> </h1>
+            <h1 className="margin text-center fw-bold">Our <span className="text-red">Services</span> </h1>
             <div className="d-flex flex-column flex-lg-row justify-content-around">
                 <div>
                 <div className="mt-5 mb-5">
-                  <h2 className="fw-bold ">Fitness Training</h2>
+                  <h2 className="fw-bold "><MdFitnessCenter className="text-red"/> Fitness Training</h2>
                   <p>Train with the best experts in bodybuilding field.</p>
                 </div>
                 <div>
-                  <h2 className="fw-bold">Mental health care</h2>
+                  <h2 className="fw-bold"><MdFitnessCenter className="text-red"/> Mental health care</h2>
                   <p>Train with the best experts in mental health field.</p>
                 </div>
                 </div>
                 <div>
                 <div className="mt-5 mb-5">
-                  <h2 className="fw-bold ">Power Yoga</h2>
+                  <h2 className="fw-bold "><MdFitnessCenter className="text-red"/> Power Yoga</h2>
                   <p>Train with the best experts in bodybuilding field.</p>
                 </div>
                 <div>
-                  <h2 className="fw-bold">Cross training</h2>
+                  <h2 className="fw-bold"><MdFitnessCenter className="text-red"/> Cross training</h2>
                   <p>Train with the best experts in mental health field.</p>
                 </div>
                 </div>
             </div>
 
             {/* coaches */}
-            <h1 className="mt-5 mb-5 text-center fw-bold">Meet Our <span className="text-red">Coaches</span></h1>
+            <h1 className="margin text-center fw-bold">Meet Our <span className="text-red">Coaches</span></h1>
             <p className="text-center mb-5">These are the best coaches in the field of fitness training.</p>
             <div className="container trainer">
               <div className="row row-cols-2 row-cols-lg-4">

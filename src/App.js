@@ -7,6 +7,7 @@ import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header';
 import Blogs from './components/Blogs/Blogs';
+import Testimonials from './components/Testimonials/Testimonials';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
             </Route>
             <Route exact path="/about">
               <About></About>
+            </Route>
+            <Route exact path="/testimonials">
+              <Testimonials></Testimonials>
             </Route>
             <Route exact path="/blogs">
             <Blogs></Blogs>
