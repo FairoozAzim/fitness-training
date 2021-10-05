@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.94cb88d2.chunk.css",
-    "main.js": "/static/js/main.3c431ce3.chunk.js",
-    "main.js.map": "/static/js/main.3c431ce3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ef14acce.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ef14acce.js.map",
-    "static/js/2.58f83875.chunk.js": "/static/js/2.58f83875.chunk.js",
-    "static/js/2.58f83875.chunk.js.map": "/static/js/2.58f83875.chunk.js.map",
-    "static/js/3.34d4a4f0.chunk.js": "/static/js/3.34d4a4f0.chunk.js",
-    "static/js/3.34d4a4f0.chunk.js.map": "/static/js/3.34d4a4f0.chunk.js.map",
+    "main.css": "/static/css/main.3d8be1fa.chunk.css",
+    "main.js": "/static/js/main.6490b4c5.chunk.js",
+    "main.js.map": "/static/js/main.6490b4c5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.82dbd7d0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.82dbd7d0.js.map",
+    "static/js/2.587f8d5e.chunk.js": "/static/js/2.587f8d5e.chunk.js",
+    "static/js/2.587f8d5e.chunk.js.map": "/static/js/2.587f8d5e.chunk.js.map",
+    "static/js/3.b8de1944.chunk.js": "/static/js/3.b8de1944.chunk.js",
+    "static/js/3.b8de1944.chunk.js.map": "/static/js/3.b8de1944.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.94cb88d2.chunk.css.map": "/static/css/main.94cb88d2.chunk.css.map",
-    "static/js/2.58f83875.chunk.js.LICENSE.txt": "/static/js/2.58f83875.chunk.js.LICENSE.txt",
+    "static/css/main.3d8be1fa.chunk.css.map": "/static/css/main.3d8be1fa.chunk.css.map",
+    "static/js/2.587f8d5e.chunk.js.LICENSE.txt": "/static/js/2.587f8d5e.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/static/media/Background.83e7667c.png",
     "static/media/cropped-F-logo.5ab4f293.png": "/static/media/cropped-F-logo.5ab4f293.png",
-    "static/media/fitness-trainer-1.f84bf10c.jpg": "/static/media/fitness-trainer-1.f84bf10c.jpg",
+    "static/media/fitness-trainer-1.d6d58c0d.jpg": "/static/media/fitness-trainer-1.d6d58c0d.jpg",
+    "static/media/fitness-trainer-2.bd8d1ad7.jpg": "/static/media/fitness-trainer-2.bd8d1ad7.jpg",
     "static/media/fitness-trainer-3.14917359.jpg": "/static/media/fitness-trainer-3.14917359.jpg",
-    "static/media/images.8a276e12.jpg": "/static/media/images.8a276e12.jpg"
+    "static/media/fitness-trainer-4.17f9d27d.jpg": "/static/media/fitness-trainer-4.17f9d27d.jpg",
+    "static/media/images.879c04a8.jpg": "/static/media/images.879c04a8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ef14acce.js",
-    "static/js/2.58f83875.chunk.js",
-    "static/css/main.94cb88d2.chunk.css",
-    "static/js/main.3c431ce3.chunk.js"
+    "static/js/runtime-main.82dbd7d0.js",
+    "static/js/2.587f8d5e.chunk.js",
+    "static/css/main.3d8be1fa.chunk.css",
+    "static/js/main.6490b4c5.chunk.js"
   ]
 }

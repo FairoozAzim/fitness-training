@@ -14,10 +14,11 @@ const Course = (props) => {
             <div className="container card-body">
             <h3 className="course-name mt-5 fw-bold card-title">{name}</h3>
             <p className="card-text">{description}</p>
-           <div className="cardfooter"> 
+            </div>
+           <div className="cardfooter ms-3"> 
                <p className="fw-bold"><span className="text-red fs-4 fw-bold">{sessions} </span>Sessions</p></div>
             
-            </div>
+            
             </div>
         </div>
     );
